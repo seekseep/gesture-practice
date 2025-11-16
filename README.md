@@ -10,7 +10,7 @@ MediaPipe Hand Landmarkerを使用して、ハンドジェスチャで画面上�
 - **Canvas API** - 描画とインタラクション
 
 # デモ動画
-https://youtu.be/oSOBgHdsDEE
+https://youtu.be/RZMDFjNAY-w
 
 # 機能
 
