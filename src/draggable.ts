@@ -18,7 +18,10 @@ export class DraggableRectangle {
   private score = 0;
   private scoredRects = new Set<Rectangle>();
 
-  constructor(private canvas: HTMLCanvasElement) {
+  private canvas: HTMLCanvasElement;
+
+  constructor(canvas: HTMLCanvasElement) {
+    this.canvas = canvas;
     this.setupEventListeners();
     // 左半分に4つの四角形を配置
     this.addRectangle(50, 50, 120, 120, '#4CAF50');

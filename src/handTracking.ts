@@ -113,7 +113,8 @@ export async function initHandTracking() {
           const flippedLandmarks = landmarks.map(l => ({
             x: 1 - l.x,
             y: l.y,
-            z: l.z
+            z: l.z,
+            visibility: l.visibility
           }));
 
           drawingUtils.drawConnectors(flippedLandmarks, HandLandmarker.HAND_CONNECTIONS, {
